@@ -1,0 +1,72 @@
+State of the program is:
+	stack is:[(string varf;(varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt;(Model.Stmt.openRFile@1d56ce6a;(intvarc;(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3))))))))]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt;(Model.Stmt.openRFile@1d56ce6a;(intvarc;(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3))))))), string varf]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt;(Model.Stmt.openRFile@1d56ce6a;(intvarc;(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3)))))))]
+	symtbl is: {varf=false}
+	 list is:[]
+State of the program is:
+	stack is:[(Model.Stmt.openRFile@1d56ce6a;(intvarc;(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3)))))), varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt]
+	symtbl is: {varf=false}
+	 list is:[]
+State of the program is:
+	stack is:[(Model.Stmt.openRFile@1d56ce6a;(intvarc;(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3))))))]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt}
+	 list is:[]
+State of the program is:
+	stack is:[(intvarc;(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3))))), Model.Stmt.openRFile@1d56ce6a]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt}
+	 list is:[]
+State of the program is:
+	stack is:[(intvarc;(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3)))))]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt}
+	 list is:[]
+State of the program is:
+	stack is:[(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3)))), intvarc]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt}
+	 list is:[]
+State of the program is:
+	stack is:[(Model.Stmt.readFile@5197848c;(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3))))]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3))), Model.Stmt.readFile@5197848c]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(print(varc);(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3)))]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 15}
+	 list is:[]
+State of the program is:
+	stack is:[(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3)), print(varc)]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 15}
+	 list is:[]
+State of the program is:
+	stack is:[(Model.Stmt.readFile@17f052a3;(print(varc);Model.Stmt.closeRFile@2e0fa5d3))]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 15}
+	 list is:[ 15]
+State of the program is:
+	stack is:[(print(varc);Model.Stmt.closeRFile@2e0fa5d3), Model.Stmt.readFile@17f052a3]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 15}
+	 list is:[ 15]
+State of the program is:
+	stack is:[(print(varc);Model.Stmt.closeRFile@2e0fa5d3)]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 50}
+	 list is:[ 15]
+State of the program is:
+	stack is:[Model.Stmt.closeRFile@2e0fa5d3, print(varc)]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 50}
+	 list is:[ 15]
+State of the program is:
+	stack is:[Model.Stmt.closeRFile@2e0fa5d3]
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 50}
+	 list is:[ 15,  50]
+State of the program is:
+	 stack is empty
+	symtbl is: {varf=C:\Users\Bubu\IdeaProjects\lab2\src\test.txt, varc= 50}
+	 list is:[ 15,  50]

@@ -1,0 +1,40 @@
+State of the program is:
+	stack is:[(inta;(intb;(a= 2+ 3* 5;(b=a+ 1;print(b)))))]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(intb;(a= 2+ 3* 5;(b=a+ 1;print(b)))), inta]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(intb;(a= 2+ 3* 5;(b=a+ 1;print(b))))]
+	symtbl is: {a= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(a= 2+ 3* 5;(b=a+ 1;print(b))), intb]
+	symtbl is: {a= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(a= 2+ 3* 5;(b=a+ 1;print(b)))]
+	symtbl is: {a= 0, b= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(b=a+ 1;print(b)), a= 2+ 3* 5]
+	symtbl is: {a= 0, b= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(b=a+ 1;print(b))]
+	symtbl is: {a= 17, b= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(b), b=a+ 1]
+	symtbl is: {a= 17, b= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(b)]
+	symtbl is: {a= 17, b= 18}
+	 list is:[]
+State of the program is:
+	 stack is empty
+	symtbl is: {a= 17, b= 18}
+	 list is:[ 18]

@@ -1,0 +1,160 @@
+State of the program is:
+	stack is:[(intv;(v= 2;(intw;(w= 3;print(v>w)))))]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 2;(intw;(w= 3;print(v>w)))), intv]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 2;(intw;(w= 3;print(v>w))))]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(intw;(w= 3;print(v>w))), v= 2]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(intw;(w= 3;print(v>w)))]
+	symtbl is: {v= 2}
+	 list is:[]
+State of the program is:
+	stack is:[(w= 3;print(v>w)), intw]
+	symtbl is: {v= 2}
+	 list is:[]
+State of the program is:
+	stack is:[(w= 3;print(v>w))]
+	symtbl is: {v= 2, w= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(v>w), w= 3]
+	symtbl is: {v= 2, w= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(v>w)]
+	symtbl is: {v= 2, w= 3}
+	 list is:[]
+State of the program is:
+	 stack is empty
+	symtbl is: {v= 2, w= 3}
+	 list is:[null]
+State of the program is:
+	stack is:[(intv;(v= 2;(intw;(w= 3;print(v>w)))))]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 2;(intw;(w= 3;print(v>w)))), intv]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 2;(intw;(w= 3;print(v>w))))]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(intw;(w= 3;print(v>w))), v= 2]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(intw;(w= 3;print(v>w)))]
+	symtbl is: {v= 2}
+	 list is:[]
+State of the program is:
+	stack is:[(w= 3;print(v>w)), intw]
+	symtbl is: {v= 2}
+	 list is:[]
+State of the program is:
+	stack is:[(w= 3;print(v>w))]
+	symtbl is: {v= 2, w= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(v>w), w= 3]
+	symtbl is: {v= 2, w= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(v>w)]
+	symtbl is: {v= 2, w= 3}
+	 list is:[]
+State of the program is:
+	 stack is empty
+	symtbl is: {v= 2, w= 3}
+	 list is:[null]
+State of the program is:
+	stack is:[(intv;(v= 2;(intw;(w= 3;print(v>w)))))]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 2;(intw;(w= 3;print(v>w)))), intv]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 2;(intw;(w= 3;print(v>w))))]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(intw;(w= 3;print(v>w))), v= 2]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(intw;(w= 3;print(v>w)))]
+	symtbl is: {v= 2}
+	 list is:[]
+State of the program is:
+	stack is:[(w= 3;print(v>w)), intw]
+	symtbl is: {v= 2}
+	 list is:[]
+State of the program is:
+	stack is:[(w= 3;print(v>w))]
+	symtbl is: {v= 2, w= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(v>w), w= 3]
+	symtbl is: {v= 2, w= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(v>w)]
+	symtbl is: {v= 2, w= 3}
+	 list is:[]
+State of the program is:
+	 stack is empty
+	symtbl is: {v= 2, w= 3}
+	 list is:[null]
+State of the program is:
+	stack is:[(intv;(v= 2;(intw;(w= 3;print(v>w)))))]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 2;(intw;(w= 3;print(v>w)))), intv]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 2;(intw;(w= 3;print(v>w))))]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(intw;(w= 3;print(v>w))), v= 2]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(intw;(w= 3;print(v>w)))]
+	symtbl is: {v= 2}
+	 list is:[]
+State of the program is:
+	stack is:[(w= 3;print(v>w)), intw]
+	symtbl is: {v= 2}
+	 list is:[]
+State of the program is:
+	stack is:[(w= 3;print(v>w))]
+	symtbl is: {v= 2, w= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(v>w), w= 3]
+	symtbl is: {v= 2, w= 0}
+	 list is:[]
+State of the program is:
+	stack is:[print(v>w)]
+	symtbl is: {v= 2, w= 3}
+	 list is:[]
+State of the program is:
+	 stack is empty
+	symtbl is: {v= 2, w= 3}
+	 list is:[null]

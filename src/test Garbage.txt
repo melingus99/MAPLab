@@ -1,0 +1,40 @@
+State of the program is:
+	stack is:[(string v;(v 20;(print(v);( 30;print(v+ 5)))))]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v 20;(print(v);( 30;print(v+ 5)))), string v]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v 20;(print(v);( 30;print(v+ 5))))]
+	symtbl is: {v=Model.Value.RefValue@736e9adb}
+	 list is:[]
+State of the program is:
+	stack is:[(print(v);( 30;print(v+ 5))), v 20]
+	symtbl is: {v=Model.Value.RefValue@736e9adb}
+	 list is:[]
+State of the program is:
+	stack is:[(print(v);( 30;print(v+ 5)))]
+	symtbl is: {v=Model.Value.RefValue@6d21714c}
+	 list is:[]
+State of the program is:
+	stack is:[( 30;print(v+ 5)), print(v)]
+	symtbl is: {v=Model.Value.RefValue@6d21714c}
+	 list is:[]
+State of the program is:
+	stack is:[( 30;print(v+ 5))]
+	symtbl is: {v=Model.Value.RefValue@6d21714c}
+	 list is:[ 20]
+State of the program is:
+	stack is:[print(v+ 5),  30]
+	symtbl is: {v=Model.Value.RefValue@6d21714c}
+	 list is:[ 20]
+State of the program is:
+	stack is:[print(v+ 5)]
+	symtbl is: {v=Model.Value.RefValue@6d21714c}
+	 list is:[ 20]
+State of the program is:
+	 stack is empty
+	symtbl is: {v=Model.Value.RefValue@6d21714c}
+	 list is:[ 20,  35]

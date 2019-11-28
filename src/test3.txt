@@ -1,0 +1,8 @@
+State of the program is:
+	 stack is empty
+	symtbl is: {v= 2}
+	 list is:[ 2]
+State of the program is:
+	 stack is empty
+	symtbl is: {v= 2}
+	 list is:[ 2]

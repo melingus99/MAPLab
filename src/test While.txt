@@ -1,0 +1,96 @@
+State of the program is:
+	stack is:[(intv;(v= 4;(While(v> 0)(print(v);v=v- 1);print(v))))]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 4;(While(v> 0)(print(v);v=v- 1);print(v))), intv]
+	symtbl is: {}
+	 list is:[]
+State of the program is:
+	stack is:[(v= 4;(While(v> 0)(print(v);v=v- 1);print(v)))]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(While(v> 0)(print(v);v=v- 1);print(v)), v= 4]
+	symtbl is: {v= 0}
+	 list is:[]
+State of the program is:
+	stack is:[(While(v> 0)(print(v);v=v- 1);print(v))]
+	symtbl is: {v= 4}
+	 list is:[]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1)]
+	symtbl is: {v= 4}
+	 list is:[]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), (print(v);v=v- 1)]
+	symtbl is: {v= 4}
+	 list is:[]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), v=v- 1, print(v)]
+	symtbl is: {v= 4}
+	 list is:[]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), v=v- 1]
+	symtbl is: {v= 4}
+	 list is:[ 4]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1)]
+	symtbl is: {v= 3}
+	 list is:[ 4]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), (print(v);v=v- 1)]
+	symtbl is: {v= 3}
+	 list is:[ 4]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), v=v- 1, print(v)]
+	symtbl is: {v= 3}
+	 list is:[ 4]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), v=v- 1]
+	symtbl is: {v= 3}
+	 list is:[ 4,  3]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1)]
+	symtbl is: {v= 2}
+	 list is:[ 4,  3]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), (print(v);v=v- 1)]
+	symtbl is: {v= 2}
+	 list is:[ 4,  3]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), v=v- 1, print(v)]
+	symtbl is: {v= 2}
+	 list is:[ 4,  3]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), v=v- 1]
+	symtbl is: {v= 2}
+	 list is:[ 4,  3,  2]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1)]
+	symtbl is: {v= 1}
+	 list is:[ 4,  3,  2]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), (print(v);v=v- 1)]
+	symtbl is: {v= 1}
+	 list is:[ 4,  3,  2]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), v=v- 1, print(v)]
+	symtbl is: {v= 1}
+	 list is:[ 4,  3,  2]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1), v=v- 1]
+	symtbl is: {v= 1}
+	 list is:[ 4,  3,  2,  1]
+State of the program is:
+	stack is:[print(v), While(v> 0)(print(v);v=v- 1)]
+	symtbl is: {v= 0}
+	 list is:[ 4,  3,  2,  1]
+State of the program is:
+	stack is:[print(v)]
+	symtbl is: {v= 0}
+	 list is:[ 4,  3,  2,  1]
+State of the program is:
+	 stack is empty
+	symtbl is: {v= 0}
+	 list is:[ 4,  3,  2,  1,  0]
